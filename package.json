@@ -1,6 +1,6 @@
 {
   "name": "thorcazo_paquete_pruebas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "La calculadora de Thorcazo",
   "keywords": [
     "calculadora",
@@ -14,6 +14,11 @@
   ],
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.ts",
+  "homepage": "https://github.com/thorcazo/calculadora.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thorcazo/calculadora.git"
+  },
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node",
