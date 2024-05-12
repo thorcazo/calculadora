@@ -17,7 +17,7 @@
   "homepage": "https://github.com/thorcazo/calculadora.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thorcazo/calculadora.git"
+    "url": "git+https://github.com/thorcazo/calculadora.git"
   },
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",

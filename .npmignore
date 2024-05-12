@@ -1,0 +1,16 @@
+# Directories
+.vscode/
+node_modules/
+src/
+dist-browser/
+
+# Files
+*.ts
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Specific files that should not be included
+README.md
