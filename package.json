@@ -1,0 +1,25 @@
+{
+  "name": "thorcazo_paquete_pruebas",
+  "version": "1.0.2",
+  "description": "La calculadora de Thorcazo",
+  "keywords": [
+    "calculadora",
+    "thorcazo"
+  ],
+  "license": "MIT",
+  "author": "Thorcazo",
+  "contributors": [
+    "Thorcazo",
+    "Pepe"
+  ],
+  "main": "dist-node/index.js",
+  "browser": "dist-browser/index.ts",
+  "scripts": {
+    "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
+    "build-node": "tsc src/index.ts --outDir dist-node",
+    "build": "npm run build-browser && npm run build-node"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
